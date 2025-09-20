@@ -1,6 +1,5 @@
 file_input = input("enter the file adress:")
 file = open(file_input,"r")
-na = "/Users/vedantarora/Documents/rawdata.txt"
 data = file.read().split()
 
 arr = []
