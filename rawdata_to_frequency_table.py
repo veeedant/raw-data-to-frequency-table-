@@ -1,5 +1,11 @@
+from prettytable import PrettyTable
+
+table = PrettyTable()
+table.field_names=["Xi","f"]
+
 file_input = input("enter the file adress:")
 file = open(file_input,"r")
+
 data = file.read().split()
 
 arr = []
@@ -13,11 +19,7 @@ for i in frequency:
 	if i[0]==' '  or i[0]=='\n':
 		frequency.remove(i)
 
-print("x"," "*5,"|"," "*5,"f")
-print("")
-for j in frequency:
-	print(j[0],"	|	",j[1])
-table = {}
-for x in frequency:
-	table[x[0]]= x[1]
+for i in range(len(frequency)):
+	table.add_row([frequency[i][0],frequency[i][1]])
+
 print(table)
