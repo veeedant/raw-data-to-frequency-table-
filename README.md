@@ -1,1 +1,3 @@
-This python code converts raw data (to be given in .txt file) into frequency table and also returns a dictionary where the values are mapped with it's respective frequency.<img width="736" height="230" alt="Screenshot 2025-09-21 at 4 28 47 AM" src="https://github.com/user-attachments/assets/222702e3-120b-439f-88a7-467540d85df2" />
+This python code converts raw data (to be given in .txt file) into frequency table and also returns a dictionary where the values are mapped with it's respective frequency.
+Requirements : prettytable (a lightweight third party python library)
+<img width="961" height="356" alt="Screenshot 2025-09-30 at 1 01 58 AM" src="https://github.com/user-attachments/assets/fc832d89-2cdd-4f92-8fef-d09a53e2c44a" />
